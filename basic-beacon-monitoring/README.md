@@ -12,13 +12,13 @@ The project has been modified to use CocoaPods.
 Clone the project.
 
 ```
-git clone https://github.com/vavvolo/basic-beacon-monitoring-ios.git
+git clone https://github.com/CoolestProjects/appathon-ios.git
 ```
 
 Install EstimoteSDK via CocoaPods.
 
 ```
-cd basic-beacon-monitoring-ios
+cd appathon-ios/basic-beacon-monitoring
 pod install
 ```
 
@@ -28,7 +28,7 @@ Open the project with Xcode. Be sure to open the workspace file.
 open BeaconMonitoringNotifDp4.xcworkspace
 ```
 
-Add the _AppDelegate.swift_ file set the Estimote App Token 
+Open the _AppDelegate.swift_ file and set the Estimote App Token 
 and UUID, major, and minor number of your test beacon.
 
 ```
