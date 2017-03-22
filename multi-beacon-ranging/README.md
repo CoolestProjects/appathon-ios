@@ -7,6 +7,15 @@ custom content based on the proximity with multiple beacons.
 
 The project has been modified to use CocoaPods.
 
+## Requirements
+
+Basic iOS development environment
+
+- Xcode 8
+- CocoaPods 1.2.0
+- iPhone
+- Estimote beacon
+
 ## How to get up and running
 
 Clone the project.
@@ -51,6 +60,8 @@ Open the _ViewController.swift_ file and set UUID, major, and minor numbers of y
 ...
 
 ```
+
+Please avoid to commit API tokens and other identifiers in the public repo.
 
 ## Tips
 

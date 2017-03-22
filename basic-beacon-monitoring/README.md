@@ -7,6 +7,15 @@ a local notifications based on beacon monitoring.
 
 The project has been modified to use CocoaPods.
 
+## Requirements
+
+Basic iOS development environment
+
+- Xcode 8
+- CocoaPods 1.2.0
+- iPhone
+- Estimote beacon
+
 ## How to get up and running
 
 Clone the project.
@@ -43,6 +52,8 @@ ESTConfig.setupAppID("beacon-monitoring-notif-dp4", andAppToken: estimoteAppToke
 ...
 
 ```
+
+Please avoid to commit API tokens and other identifiers in the public repo.
 
 ## Tips
 
