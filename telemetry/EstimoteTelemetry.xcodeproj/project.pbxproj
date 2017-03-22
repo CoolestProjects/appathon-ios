@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E8B43951C1BE3961890B07C /* Pods_EstimoteTelemetry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3CA5C6ED522C3FF6342987 /* Pods_EstimoteTelemetry.framework */; };
+		A91FE3871E833F1300C48CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91FE3861E833F1300C48CB2 /* AppDelegate.swift */; };
+		A91FE3891E833F1300C48CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91FE3881E833F1300C48CB2 /* ViewController.swift */; };
+		A91FE38C1E833F1300C48CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91FE38A1E833F1300C48CB2 /* Main.storyboard */; };
+		A91FE38E1E833F1300C48CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91FE38D1E833F1300C48CB2 /* Assets.xcassets */; };
+		A91FE3911E833F1300C48CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91FE38F1E833F1300C48CB2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		172920B4DA1556049337C8EC /* Pods-EstimoteTelemetry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstimoteTelemetry.release.xcconfig"; path = "Pods/Target Support Files/Pods-EstimoteTelemetry/Pods-EstimoteTelemetry.release.xcconfig"; sourceTree = "<group>"; };
+		A25F91082B08B91995D3A7EC /* Pods-EstimoteTelemetry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstimoteTelemetry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EstimoteTelemetry/Pods-EstimoteTelemetry.debug.xcconfig"; sourceTree = "<group>"; };
+		A91FE3831E833F1300C48CB2 /* EstimoteTelemetry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EstimoteTelemetry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91FE3861E833F1300C48CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A91FE3881E833F1300C48CB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A91FE38B1E833F1300C48CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A91FE38D1E833F1300C48CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A91FE3901E833F1300C48CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A91FE3921E833F1300C48CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A83BD91E834075002D26DE /* ObjCBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCBridge.h; sourceTree = "<group>"; };
+		EF3CA5C6ED522C3FF6342987 /* Pods_EstimoteTelemetry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EstimoteTelemetry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A91FE3801E833F1300C48CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8B43951C1BE3961890B07C /* Pods_EstimoteTelemetry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94029BB07371F9B1CBDCA4AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A25F91082B08B91995D3A7EC /* Pods-EstimoteTelemetry.debug.xcconfig */,
+				172920B4DA1556049337C8EC /* Pods-EstimoteTelemetry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A91FE37A1E833F1300C48CB2 = {
+			isa = PBXGroup;
+			children = (
+				A91FE3851E833F1300C48CB2 /* EstimoteTelemetry */,
+				A91FE3841E833F1300C48CB2 /* Products */,
+				94029BB07371F9B1CBDCA4AD /* Pods */,
+				C0DB259989337603EC645962 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A91FE3841E833F1300C48CB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A91FE3831E833F1300C48CB2 /* EstimoteTelemetry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A91FE3851E833F1300C48CB2 /* EstimoteTelemetry */ = {
+			isa = PBXGroup;
+			children = (
+				A91FE3861E833F1300C48CB2 /* AppDelegate.swift */,
+				A91FE3881E833F1300C48CB2 /* ViewController.swift */,
+				A91FE38A1E833F1300C48CB2 /* Main.storyboard */,
+				A91FE38D1E833F1300C48CB2 /* Assets.xcassets */,
+				A91FE38F1E833F1300C48CB2 /* LaunchScreen.storyboard */,
+				A91FE3921E833F1300C48CB2 /* Info.plist */,
+				A9A83BD91E834075002D26DE /* ObjCBridge.h */,
+			);
+			path = EstimoteTelemetry;
+			sourceTree = "<group>";
+		};
+		C0DB259989337603EC645962 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF3CA5C6ED522C3FF6342987 /* Pods_EstimoteTelemetry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A91FE3821E833F1300C48CB2 /* EstimoteTelemetry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91FE3951E833F1300C48CB2 /* Build configuration list for PBXNativeTarget "EstimoteTelemetry" */;
+			buildPhases = (
+				A6358B8BADF0760AAE3ECF84 /* [CP] Check Pods Manifest.lock */,
+				A91FE37F1E833F1300C48CB2 /* Sources */,
+				A91FE3801E833F1300C48CB2 /* Frameworks */,
+				A91FE3811E833F1300C48CB2 /* Resources */,
+				8D15FA91A8B40C691B063146 /* [CP] Embed Pods Frameworks */,
+				B896D36D75BAB33B25DCAE1C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EstimoteTelemetry;
+			productName = EstimoteTelemetry;
+			productReference = A91FE3831E833F1300C48CB2 /* EstimoteTelemetry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A91FE37B1E833F1300C48CB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CoolestProjects;
+				TargetAttributes = {
+					A91FE3821E833F1300C48CB2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A91FE37E1E833F1300C48CB2 /* Build configuration list for PBXProject "EstimoteTelemetry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A91FE37A1E833F1300C48CB2;
+			productRefGroup = A91FE3841E833F1300C48CB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A91FE3821E833F1300C48CB2 /* EstimoteTelemetry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A91FE3811E833F1300C48CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91FE3911E833F1300C48CB2 /* LaunchScreen.storyboard in Resources */,
+				A91FE38E1E833F1300C48CB2 /* Assets.xcassets in Resources */,
+				A91FE38C1E833F1300C48CB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D15FA91A8B40C691B063146 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EstimoteTelemetry/Pods-EstimoteTelemetry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6358B8BADF0760AAE3ECF84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B896D36D75BAB33B25DCAE1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EstimoteTelemetry/Pods-EstimoteTelemetry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A91FE37F1E833F1300C48CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91FE3891E833F1300C48CB2 /* ViewController.swift in Sources */,
+				A91FE3871E833F1300C48CB2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A91FE38A1E833F1300C48CB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A91FE38B1E833F1300C48CB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A91FE38F1E833F1300C48CB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A91FE3901E833F1300C48CB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A91FE3931E833F1300C48CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A91FE3941E833F1300C48CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A91FE3961E833F1300C48CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A25F91082B08B91995D3A7EC /* Pods-EstimoteTelemetry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EstimoteTelemetry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coolestprojects.EstimoteTelemetry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjCBridge.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A91FE3971E833F1300C48CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 172920B4DA1556049337C8EC /* Pods-EstimoteTelemetry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EstimoteTelemetry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coolestprojects.EstimoteTelemetry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjCBridge.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A91FE37E1E833F1300C48CB2 /* Build configuration list for PBXProject "EstimoteTelemetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91FE3931E833F1300C48CB2 /* Debug */,
+				A91FE3941E833F1300C48CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91FE3951E833F1300C48CB2 /* Build configuration list for PBXNativeTarget "EstimoteTelemetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91FE3961E833F1300C48CB2 /* Debug */,
+				A91FE3971E833F1300C48CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A91FE37B1E833F1300C48CB2 /* Project object */;
+}
