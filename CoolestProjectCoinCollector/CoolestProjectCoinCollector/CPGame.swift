@@ -6,21 +6,22 @@
 //  Copyright © 2017 Natasha Cole. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class CPGame: NSObject {
-// Title
-// PasswordFromStall (optional)
-// Content
-// Directions.
+struct CPGame {
+  let gameId: String
+  let title: String
+  let infoFromExhibition: String
+  let gameContent: String
+  let directions: String
+  // PasswordFromStall (optional)
   
-//  "games" : {
-//  "game" : [ {
-//  "gameId" : "1234524",
-//  "title" : "X's and O's",
-//  "infoFromExhibition" : "iloveCP",
-//  "gameContent" : "json",
-//  "directions" : "Use this game and have fun"
-//  } ]
-//  },
+  init(gameId: String, title: String, infoFromExhibition: String, gameContent: String, directions: String) {
+    self.gameId = gameId
+    self.title = title
+    self.infoFromExhibition = infoFromExhibition;
+    self.gameContent = gameContent
+    self.directions = directions
+  }
 }
+

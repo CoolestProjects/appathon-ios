@@ -20,6 +20,7 @@
 		7E3E31071E8961B200DDA145 /* CPGameScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E30FE1E8961B200DDA145 /* CPGameScreenViewController.swift */; };
 		7E3E31081E8961B200DDA145 /* CPGameSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E30FF1E8961B200DDA145 /* CPGameSuccessViewController.swift */; };
 		7E3E31091E8961B200DDA145 /* CPGameFailureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E31001E8961B200DDA145 /* CPGameFailureViewController.swift */; };
+		7E3E310C1E89790E00DDA145 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E3E310B1E89790E00DDA145 /* GoogleService-Info.plist */; };
 		7E6EE9F51E882E7E00522248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6EE9F41E882E7E00522248 /* AppDelegate.swift */; };
 		7E6EE9F71E882E7E00522248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6EE9F61E882E7E00522248 /* ViewController.swift */; };
 		7E6EE9FA1E882E7E00522248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6EE9F81E882E7E00522248 /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 		7E3E30FE1E8961B200DDA145 /* CPGameScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPGameScreenViewController.swift; sourceTree = "<group>"; };
 		7E3E30FF1E8961B200DDA145 /* CPGameSuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPGameSuccessViewController.swift; sourceTree = "<group>"; };
 		7E3E31001E8961B200DDA145 /* CPGameFailureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPGameFailureViewController.swift; sourceTree = "<group>"; };
+		7E3E310B1E89790E00DDA145 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7E6EE9F11E882E7E00522248 /* CoolestProjectCoinCollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolestProjectCoinCollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6EE9F41E882E7E00522248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E6EE9F61E882E7E00522248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,14 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		7E3E310A1E8978F700DDA145 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E310B1E89790E00DDA145 /* GoogleService-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		7E6EE9E81E882E7E00522248 = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +160,7 @@
 				7E6EE9F41E882E7E00522248 /* AppDelegate.swift */,
 				7E3E30F11E89613D00DDA145 /* Model */,
 				7E3E30D51E893CE700DDA145 /* Controllers */,
+				7E3E310A1E8978F700DDA145 /* Resources */,
 				7E6EE9F81E882E7E00522248 /* Main.storyboard */,
 				7E6EE9FB1E882E7E00522248 /* Assets.xcassets */,
 				7E6EE9FD1E882E7E00522248 /* LaunchScreen.storyboard */,
@@ -273,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E6EE9FF1E882E7E00522248 /* LaunchScreen.storyboard in Resources */,
+				7E3E310C1E89790E00DDA145 /* GoogleService-Info.plist in Resources */,
 				7E6EE9FC1E882E7E00522248 /* Assets.xcassets in Resources */,
 				7E6EE9FA1E882E7E00522248 /* Main.storyboard in Resources */,
 			);
@@ -500,7 +512,7 @@
 				INFOPLIST_FILE = CoolestProjectCoinCollector/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mttnow.easyjet.staging;
+				PRODUCT_BUNDLE_IDENTIFIER = org.coolestprojects.coolestprojectsevent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d29a9f9b-6fec-44bd-831f-e48547c97c96";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development com.mttnow.easyjet.staging";
@@ -518,7 +530,7 @@
 				INFOPLIST_FILE = CoolestProjectCoinCollector/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mttnow.easyjet.staging;
+				PRODUCT_BUNDLE_IDENTIFIER = org.coolestprojects.coolestprojectsevent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d29a9f9b-6fec-44bd-831f-e48547c97c96";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development com.mttnow.easyjet.staging";

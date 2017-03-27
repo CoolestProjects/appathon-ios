@@ -6,25 +6,23 @@
 //  Copyright © 2017 Natasha Cole. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class CPProfile: NSObject {
-//UUID
-//Username
-//Imagestring
-//<NumberOGems>
+struct CPProfile {
+  let imageString: String
+  let numberOGems: String
+  let numberOfGamesPlayed: String
+  let totalGameScore: String
+  let uniqueid: String
+  let username: String
   
-//<NumberOfGamesPlayed>
-//<Scores of games>
-
-//  "profiles" : {
-//  "profile" : [ {
-//  "imageString" : "coolkid",
-//  "numberOGems" : 50,
-//  "numberOfGamesPlayed" : 3,
-//  "totalGameScore" : 100,
-//  "uniqueid" : "123456789",
-//  "username" : "22561"
-//  } ]
-//  },
+  init(imageString: String, numberOGems: String, numberOfGamesPlayed: String, totalGameScore: String,uniqueid: String, username: String ) {
+    self.imageString = imageString
+    self.numberOGems = numberOGems
+    self.numberOfGamesPlayed = numberOfGamesPlayed;
+    self.totalGameScore = totalGameScore
+    self.uniqueid = uniqueid
+    self.username = username;
+  }
+  
 }
