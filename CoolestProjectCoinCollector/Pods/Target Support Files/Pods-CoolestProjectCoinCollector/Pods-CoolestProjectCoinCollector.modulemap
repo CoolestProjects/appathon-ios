@@ -1,0 +1,6 @@
+framework module Pods_CoolestProjectCoinCollector {
+  umbrella header "Pods-CoolestProjectCoinCollector-umbrella.h"
+
+  export *
+  module * { export * }
+}
