@@ -27,6 +27,7 @@
 		7E6EE9FC1E882E7E00522248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6EE9FB1E882E7E00522248 /* Assets.xcassets */; };
 		7E6EE9FF1E882E7E00522248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6EE9FD1E882E7E00522248 /* LaunchScreen.storyboard */; };
 		7E6EEA0A1E882E7F00522248 /* CoolestProjectCoinCollectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6EEA091E882E7F00522248 /* CoolestProjectCoinCollectorTests.swift */; };
+		7E768BAA1E8FE2E7008CC5BA /* CPFirebaseDefaultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E768BA91E8FE2E7008CC5BA /* CPFirebaseDefaultService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		7E6EEA0B1E882E7F00522248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E6EEA141E882E7F00522248 /* CoolestProjectCoinCollectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolestProjectCoinCollectorUITests.swift; sourceTree = "<group>"; };
 		7E6EEA161E882E7F00522248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E768BA91E8FE2E7008CC5BA /* CPFirebaseDefaultService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPFirebaseDefaultService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				7E6EE9F41E882E7E00522248 /* AppDelegate.swift */,
+				7E768BA81E8FE2C4008CC5BA /* Services */,
 				7E3E30F11E89613D00DDA145 /* Model */,
 				7E3E30D51E893CE700DDA145 /* Controllers */,
 				7E3E310A1E8978F700DDA145 /* Resources */,
@@ -185,6 +188,14 @@
 				7E6EEA161E882E7F00522248 /* Info.plist */,
 			);
 			path = CoolestProjectCoinCollectorUITests;
+			sourceTree = "<group>";
+		};
+		7E768BA81E8FE2C4008CC5BA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7E768BA91E8FE2E7008CC5BA /* CPFirebaseDefaultService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		EDFA1D586D7B153BEC441CA4 /* Frameworks */ = {
@@ -363,6 +374,7 @@
 				7E3E30F51E89618900DDA145 /* CPProfile.swift in Sources */,
 				7E3E31081E8961B200DDA145 /* CPGameSuccessViewController.swift in Sources */,
 				7E3E31031E8961B200DDA145 /* CPIndoorMapViewController.swift in Sources */,
+				7E768BAA1E8FE2E7008CC5BA /* CPFirebaseDefaultService.swift in Sources */,
 				7E6EE9F71E882E7E00522248 /* ViewController.swift in Sources */,
 				7E3E31051E8961B200DDA145 /* CPMainViewController.swift in Sources */,
 				7E6EE9F51E882E7E00522248 /* AppDelegate.swift in Sources */,
