@@ -6,15 +6,19 @@
 //  Copyright © 2017 Natasha Cole. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class CPBeacon: NSObject {
-//  "beacon" : {
-//  "beacons" : [ {
-//  "major" : 7410,
-//  "minor" : 22561,
-//  "taskName" : "Quiz",
-//  "uuid" : "B9407F30-F5F8-466E-AFF9-25556B57FE6D"
-//  } ]
-//  },
+struct CPBeacon {
+  let major: String
+  let minor: String
+  let taskName: String
+  let uuid: String
+  
+  init(major: String, minor: String, taskName: String, uuid: String) {
+    self.major = major;
+    self.minor = minor;
+    self.taskName = taskName;
+    self.uuid = uuid;
+  }
 }
+

@@ -12,36 +12,19 @@ import Firebase
 struct CPProfile {
   
   let imageString: String
-  let numberOfGems: String
-  let numberOfGamesPlayed: String
-  let totalGameScore: String
+  let numberOfGems: NSDecimalNumber
+  let numberOfGamesPlayed: NSDecimalNumber
+  let totalGameScore: NSDecimalNumber
   let uniqueid: String
   let username: String
-  let key: String
-  let ref: FIRDatabaseReference?
   
-  init(imageString: String, numberOfGems: String, numberOfGamesPlayed: String, totalGameScore: String,uniqueid: String, username: String,  key: String = "" ) {
+  init(imageString: String, numberOfGems: NSDecimalNumber, numberOfGamesPlayed: NSDecimalNumber, totalGameScore: NSDecimalNumber, uniqueid: String, username: String) {
     self.imageString = imageString
     self.numberOfGems = numberOfGems
     self.numberOfGamesPlayed = numberOfGamesPlayed;
     self.totalGameScore = totalGameScore
     self.uniqueid = uniqueid
     self.username = username;
-    self.key = key
-    self.ref = nil
-  }
-  
-  init(snapshot: FIRDataSnapshot) {
-    key = snapshot.key
-    let dict : NSDictionary = snapshot.value as! NSDictionary
-    //To do: Convert into dictionary
-    imageString = ""
-    numberOfGems = ""
-    numberOfGamesPlayed = ""
-    totalGameScore = ""
-    uniqueid = ""
-    username = ""
-    ref = snapshot.ref
   }
   
   func toAnyObject() -> Any {

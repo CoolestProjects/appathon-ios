@@ -16,14 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   let uuid = UUID().uuidString
   var hasUserAccount = false
   var profiles: [CPProfile] = []
-  
-  
+		
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     UIApplication.shared.statusBarStyle = .lightContent
     FIRApp.configure()
     FIRDatabase.database().persistenceEnabled = true
-    preloadInfoIfSetUpAlready()
-    // Override point for customization after application launch.
+    let firebaseDefaultService: CPFirebaseDefaultService = CPFirebaseDefaultService()
+    if (firebaseDefaultService.getProfileWithCompletionBlock()) {
+      let storyboard = UIStoryboard(name: "Main", bundle: nil)
+      let viewController: CPIndoorMapViewController = storyboard.instantiateViewController(withIdentifier: "CPIndoorMapViewController") as! CPIndoorMapViewController
+      
+      window?.rootViewController = viewController
+      window?.makeKeyAndVisible()
+    }
     return true
   }
   
@@ -47,21 +52,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   func applicationWillTerminate(_ application: UIApplication) {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-  }
-  
-  func preloadInfoIfSetUpAlready() {
-    let ref = FIRDatabase.database().reference(withPath: "profiles")
-    ref.queryOrdered(byChild: "profile").observe(.value, with: { snapshot in
-      
-      for profile in snapshot.children {
-        let profile = CPProfile(snapshot: profile as! FIRDataSnapshot)
-        self.profiles.append(profile)
-      }
-    })
-  }
-  
-  func preloadInfoIfNotSetUpAlready() {
-    //To do: ref service and set up all other content
   }
   
 }

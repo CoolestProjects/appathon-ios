@@ -9,14 +9,13 @@
 import Foundation
 
 struct CPGame {
-  let gameId: String
+  let gameId: NSDecimalNumber
   let title: String
   let infoFromExhibition: String
   let gameContent: String
   let directions: String
-  // PasswordFromStall (optional)
   
-  init(gameId: String, title: String, infoFromExhibition: String, gameContent: String, directions: String) {
+  init(gameId: NSDecimalNumber, title: String, infoFromExhibition: String, gameContent: String, directions: String) {
     self.gameId = gameId
     self.title = title
     self.infoFromExhibition = infoFromExhibition;

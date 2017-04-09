@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="B29-wJ-5uo">
             <objects>
-                <viewController id="72K-zg-8aW" customClass="ViewController" customModule="CoolestProjectCoinCollector" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="72K-zg-8aW" customClass="ViewController" customModule="CoolestProjectCoinCollector" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Kug-TY-isM"/>
                         <viewControllerLayoutGuide type="bottom" id="SEs-7s-G57"/>
@@ -228,7 +228,7 @@
         <!--Indoor Map View Controller-->
         <scene sceneID="gMk-DU-grm">
             <objects>
-                <viewController id="u7b-H7-dI4" customClass="CPIndoorMapViewController" customModule="CoolestProjectCoinCollector" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CPIndoorMapViewController" id="u7b-H7-dI4" customClass="CPIndoorMapViewController" customModule="CoolestProjectCoinCollector" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="17s-DM-8NU"/>
                         <viewControllerLayoutGuide type="bottom" id="cGe-6v-TT2"/>
@@ -526,9 +526,9 @@
         <image name="avatarTwo" width="107" height="107"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="083-iS-GdH"/>
-        <segue reference="5Yj-U8-E9o"/>
-        <segue reference="cgs-Xw-D9Q"/>
         <segue reference="jeY-Hj-SD2"/>
+        <segue reference="pjZ-dn-zAV"/>
+        <segue reference="xln-cp-hfC"/>
+        <segue reference="Nb3-BL-Mdh"/>
     </inferredMetricsTieBreakers>
 </document>
